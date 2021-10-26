@@ -5,6 +5,12 @@ Script to identify Enterococcus species through in silico PCR
 - Biopython
 - BLASTN (2.10.0+)
 
+# Before using the script
+
+It is necessary to execute the command makeblastdb on the ddlE_primers.fasta file:
+
+'makeblastdb -in ddlE_primers.fasta -dbtype nucl'
+
 # Description
 This script searches specific primers for the following Enterococcus species:
 - E. faecalis
