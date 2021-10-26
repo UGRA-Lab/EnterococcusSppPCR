@@ -9,7 +9,7 @@ Script to identify Enterococcus species through in silico PCR
 
 It is necessary to execute the command makeblastdb on the ddlE_primers.fasta file:
 
-'makeblastdb -in ddlE_primers.fasta -dbtype nucl'
+`makeblastdb -in ddlE_primers.fasta -dbtype nucl`
 
 # Description
 This script searches specific primers for the following Enterococcus species:
